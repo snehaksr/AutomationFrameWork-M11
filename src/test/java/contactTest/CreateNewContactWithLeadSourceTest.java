@@ -48,7 +48,7 @@ public class CreateNewContactWithLeadSourceTest extends BaseClass{
 		Assert.assertTrue(contactHeader.contains(lastname));
 
 		System.out.println(contactHeader);
-		
+		System.out.println("Hi all");
 		
 
 	}
