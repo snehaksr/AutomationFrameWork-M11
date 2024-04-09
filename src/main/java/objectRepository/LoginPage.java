@@ -5,7 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {//Rule 1 : Create a Separate POM class for every WebPage
+public class LoginPage {
+	//Rule 1 : Create a Separate POM class for every WebPage
 	
 	// Rule2: Identify the web element using @FindBy
 	//Declaration
@@ -43,7 +44,6 @@ public class LoginPage {//Rule 1 : Create a Separate POM class for every WebPage
 	 * @param USERNAME
 	 * @param PASSWORD
 	 */
-	
 	public void loginToApp(String USERNAME,String PASSWORD)
 	{
 		userNameEdt.sendKeys(USERNAME);
@@ -53,7 +53,4 @@ public class LoginPage {//Rule 1 : Create a Separate POM class for every WebPage
 		loginBtn.click();
 		
 	}
-	
-	
-
 }
