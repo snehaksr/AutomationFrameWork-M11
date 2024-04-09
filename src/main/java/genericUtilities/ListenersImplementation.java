@@ -123,5 +123,4 @@ public class ListenersImplementation implements ITestListener {
 		report.flush();
 
 	}
-
 }
